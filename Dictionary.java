@@ -90,5 +90,7 @@ public class Dictionary {
 			System.out.println("Definition:\t" + getDef(word));
 			System.out.println("Hashkey:\t" + getHash(word));
 		}
+		else
+			System.out.println(word + " is not in the dictionary.");
 	}//end searchAndPrint
 }//end Dictionary
